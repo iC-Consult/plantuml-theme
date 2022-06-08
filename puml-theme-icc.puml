@@ -1,0 +1,120 @@
+!$BGCOLOR = "white"
+!$FGCOLOR = "black"
+!$HYPERLINK_COLOR = "blue"
+!$FONT_NAME = "Titillium Web"
+!$FONT_NAME_MONOSPACED = "Courier"
+!$DARKGREY = "636362"
+!$GREEN = "84bd00"
+!$BLUE = "60c0dd"
+!$PURPLE = "e5497c"
+!$PINK = "aa4899"
+
+<style>
+  root {
+    BackgroundColor $BGCOLOR
+    FontColor $FGCOLOR
+    FontName $FONT_NAME
+    HyperLinkColor $HYPERLINK_COLOR
+    LineColor $FGCOLOR
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor $FGCOLOR
+skinparam BackgroundColor $BGCOLOR
+skinparam DefaultFontName $FONT_NAME
+skinparam DefaultMonospacedFontName $FONT_NAME_MONOSPACED
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor $FGCOLOR
+skinparam Shadowing false
+skinparam UseBetaStyle true
+skinparam RoundCorner 5
+skinparam ArrowColor $FGCOLOR
+skinparam FontColor $FGCOLOR
+skinparam SequenceLifeLineBorderColor $DARKGREY
+skinparam SequenceGroupHeaderFontColor $FGCOLOR
+skinparam SequenceGroupFontColor $DARKGREY
+skinparam SequenceGroupBorderColor $DARKGREY
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor $FGCOLOR
+    BorderThickness 1
+    FontColor $FGCOLOR
+}
+
+skinparam participant {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 60c0dd
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+}
+
+skinparam entity {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+}
+
+skinparam note {
+    BackgroundColor e5e5e5
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+    BorderThickness 1.5
+}
+
+skinparam actor {
+    BackgroundColor $FGCOLOR
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+}
+
+skinparam boundary {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+}
+
+skinparam control {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+}
+
+skinparam collections {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+    BorderThickness 1.5
+}
+
+skinparam queue {
+    BackgroundColor $GREEN
+    BorderColor $FGCOLOR
+    FontColor $FGCOLOR
+    BorderThickness 1.5
+}
