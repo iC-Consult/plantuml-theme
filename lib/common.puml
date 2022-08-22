@@ -1,0 +1,37 @@
+
+skinparam defaultTextAlignment center
+
+skinparam PackageTitleAlignment Left
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+!function $iCCSprite(service)
+!return %call_user_func("$" + service)
+!endfunction
+
+!definelong iCCEntityImg(e_alias, e_label, e_imgUrl, e_stereo, e_scale)
+rectangle "<img:e_imgUrl{scale=e_scale}>\n==e_label" <<e_stereo>> as e_alias
+!enddefinelong
+
+!definelong iCCEntityImg(e_alias, e_label, e_descr, e_imgUrl, e_stereo, e_scale)
+rectangle "==e_label\n<img:e_imgUrl{scale=e_scale}>\n\n e_descr" <<e_stereo>> as e_alias
+!enddefinelong
+
+!definelong iCCParticipantImg(p_alias, p_label, p_imgUrl, p_stereo, p_scale)
+participant "p_label\n<img:e_imgUrl{scale=p_scale}>" as p_alias <<p_stereo>>
+!enddefinelong
+
+!definelong iCCParticipantImg(p_alias, p_label, p_descr, p_imgUrl, p_stereo, p_scale)
+participant "p_label\n<img:e_imgUrl{scale=p_scale}>\n\n p_descr" as p_alias <<p_stereo>>
+!enddefinelong

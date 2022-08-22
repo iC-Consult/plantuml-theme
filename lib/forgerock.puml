@@ -1,0 +1,34 @@
+!define ForgeRockAM(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/access-management.svg", "ForgeRock AM", 1.0)
+!define ForgeRockAM(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/access-management.svg", "ForgeRock AM", 1.0)
+!define ForgeRockAMParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/access-management.svg", "ForgeRock AM", 1.0)
+!define ForgeRockAMParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/access-management.svg", "ForgeRock AM", 1.0)
+
+!define ForgeRockIDM(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/identity-management.svg", "ForgeRock IDM", 1.0)
+!define ForgeRockIDM(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/identity-management.svg", "ForgeRock IDM", 1.0)
+!define ForgeRockIDMParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/identity-management.svg", "ForgeRock IDM", 1.0)
+!define ForgeRockIDMParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/identity-management.svg", "ForgeRock IDM", 1.0)
+
+!define ForgeRockDS(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/directory-services.svg", "ForgeRock DS", 1.0)
+!define ForgeRockDS(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/directory-services.svg", "ForgeRock DS", 1.0)
+!define ForgeRockDSParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/directory-services.svg", "ForgeRock DS", 1.0)
+!define ForgeRockDSParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/directory-services.svg", "ForgeRock DS", 1.0)
+
+!define ForgeRockIG(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/identity-gateway.svg", "ForgeRock IG", 1.0)
+!define ForgeRockIG(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/identity-gateway.svg", "ForgeRock IG", 1.0)
+!define ForgeRockIGParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/identity-gateway.svg", "ForgeRock IG", 1.0)
+!define ForgeRockIGParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/identity-gateway.svg", "ForgeRock IG", 1.0)
+
+!define ForgeRockAdminUI(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Admin UI", 1.0)
+!define ForgeRockAdminUI(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Admin UI", 1.0)
+!define ForgeRockAdminUIParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Admin UI", 1.0)
+!define ForgeRockAdminUIParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Admin UI", 1.0)
+
+!define ForgeRockEnduserUI(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Enduser UI", 1.0)
+!define ForgeRockEnduserUI(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Enduser UI", 1.0)
+!define ForgeRockEnduserUIParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Enduser UI", 1.0)
+!define ForgeRockEnduserUIParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Enduser UI", 1.0)
+
+!define ForgeRockLoginUI(e_alias, e_label) iCCEntityImg(e_alias, e_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Login UI", 1.0)
+!define ForgeRockLoginUI(e_alias, e_label, e_descr) iCCEntityImg(e_alias, e_label, e_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Login UI", 1.0)
+!define ForgeRockLoginUIParticipant(p_alias, p_label) iCCParticipantImg(p_alias, p_label, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Login UI", 1.0)
+!define ForgeRockLoginUIParticipant(p_alias, p_label, p_descr) AWSParticipant(p_alias, p_label, p_descr, "https://cdn.forgerock.com/icons/platform-icon.svg", "ForgeRock Login UI", 1.0)
