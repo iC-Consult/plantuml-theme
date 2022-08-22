@@ -1,0 +1,37 @@
+@startuml test1
+!theme icc from https://raw.githubusercontent.com/iC-Consult/plantuml-theme/1.0
+
+!define ICCLib https://raw.githubusercontent.com/iC-Consult/plantuml-theme/1.0/lib
+!include ICCLib/common.puml
+!include ICCLib/forgerock.puml
+
+ForgeRockAM(am, "Access Management")
+ForgeRockIDM(idm, "Identity Management")
+ForgeRockDS(ds, "ID Repo")
+ForgeRockDS(cts, "CTS")
+ForgeRockAdminUI(platform, "Admin UI")
+ForgeRockLoginUI(loginui, "Login UI")
+ForgeRockEnduserUI(enduserui, "Enduser UI")
+ForgeRockIG(ig, "IG")
+
+ig -down-> platform : "/admin"
+ig -down-> loginui : "/login"
+ig -down-> am : "/am"
+ig -down-> idm : "/openidm"
+ig -down-> enduserui : "/platform"
+
+platform -down-> am
+platform -down-> idm
+enduserui -down-> am
+enduserui -down-> idm
+loginui -down-> am
+
+am -right-> idm : "REST API"
+idm -right-> am : "OAuth2"
+
+am -down-> ds
+idm -down-> ds
+am -down-> cts
+
+
+@enduml
